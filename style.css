@@ -276,23 +276,39 @@ th {
   margin: 0 auto;
 }
 
+.videos-diferenciales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  padding: 10px;
+}
+
 .lista-diferenciales {
-  width: 40%;
-  display: inline-block;
   vertical-align: top;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .items {
   line-height: 1.5;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .items::before {
   content: "★ ";
 }
 
-.items:first-child {
+/* .items:first-child {
   font-weight: bold;
-}
+} */
 
 .imagen-diferenciales {
   width: 60%;
@@ -346,6 +362,16 @@ th {
 
   .imagen {
     max-height: 300px;
+  }
+
+  .lista-diferenciales {
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .videos-diferenciales {
+    display: block;
+    padding: 5px;
   }
 
   .caja,
