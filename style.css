@@ -180,7 +180,7 @@ form legend {
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
-  background: orange;
+  background: #c02d9b;
   border: none;
   border-radius: 5px;
   transition: 1s all;
@@ -189,7 +189,7 @@ form legend {
 }
 
 .enviar:hover {
-  background: darkorange;
+  background: #751c5f;
   transform: scale(1.2);
 }
 
@@ -218,7 +218,7 @@ th {
 .principal {
   background: #fefefe;
   padding: 3em 0;
-  width: 940px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -231,6 +231,10 @@ th {
 
 .principal p {
   margin: 0 0 1em;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+  padding: 20px;
 }
 
 .principal strong {
