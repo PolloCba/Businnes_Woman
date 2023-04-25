@@ -94,9 +94,9 @@ nav a:hover {
 }
 
 .productos {
-  width: 940px;
+  /* width: 940px; */
   margin: 0 auto;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .productos li {
@@ -109,10 +109,12 @@ nav a:hover {
   box-sizing: border-box;
   border: 2px solid #000000;
   border-radius: 10px;
+  transition: 0.5s all;
 }
 
 .productos li:hover {
   border-color: #c02d9b;
+  transform: scale(1.1);
 }
 
 .productos li:active {
@@ -304,9 +306,11 @@ th {
 
 .form {
   display: flex;
+  height: 72vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
   width: 100%;
   text-align: center;
   background: linear-gradient(#fefefe, #888888);
