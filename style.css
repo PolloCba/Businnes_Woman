@@ -203,6 +203,22 @@ form legend {
   transform: scale(1.2);
 }
 
+.whatsapp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono-whatsapp {
+  padding-top: 50px;
+}
+
+.telefono-whatsapp {
+  font-size: 40px;
+  padding-top: 50px;
+}
+
 table {
   padding: 10px;
 }
@@ -344,10 +360,6 @@ iframe {
   content: "★ ";
 }
 
-/* .items:first-child {
-  font-weight: bold;
-} */
-
 .imagen-diferenciales {
   width: 60%;
 }
@@ -365,13 +377,13 @@ iframe {
 
 .form {
   display: flex;
-  height: 72vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   text-align: center;
   background: linear-gradient(#fefefe, #888888);
+  height: 1450px;
 }
 
 .table {
@@ -388,7 +400,6 @@ iframe {
   body {
     display: grid;
     background-color: #888888;
-    height: 100%;
   }
   h1 {
     text-align: center;
