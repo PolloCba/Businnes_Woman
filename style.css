@@ -172,12 +172,20 @@ form legend {
   height: 4%;
 }
 
+.input-padron:focus {
+  font-size: 16px;
+}
+
 .input-textarea {
   display: block;
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 50%;
   height: 20%;
+}
+
+.input-textarea {
+  font-size: 16px;
 }
 
 .checkbox {
