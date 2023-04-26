@@ -377,6 +377,7 @@ iframe {
 @media screen and (max-width: 480px) {
   body {
     display: grid;
+    background-color: #888888;
   }
   h1 {
     text-align: center;
