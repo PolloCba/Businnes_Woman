@@ -201,11 +201,12 @@ thead {
   background: #555555;
   color: white;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 td,
 th {
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   padding: 8px 15px;
 }
 
@@ -218,14 +219,15 @@ th {
 .principal {
   padding: 3em 0;
   margin: 0 auto;
-  background-color: #fefefe;
+  background-color: #888888;
 }
 
 .titulo-principal {
-  text-align: center;
+  text-align: initial;
   font-size: 2em;
-  margin: 0 0 1em;
+  margin: 0px 1em 1em;
   clear: left;
+  font-weight: bold;
 }
 
 .principal p {
@@ -263,6 +265,33 @@ th {
 .mapa-contenido {
   width: 940px;
   margin: 0 auto;
+}
+
+.talles_precios {
+  background-color: #888888;
+}
+
+.titulo-talles {
+  text-align: initial;
+  font-size: 2em;
+  margin: 0px 1em 1em;
+  clear: left;
+  font-weight: bold;
+}
+
+.talles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #888888;
+}
+
+.foto_talles {
+  width: 500px;
+  height: 500px;
+  padding: 20px;
 }
 
 .diferenciales {
@@ -341,6 +370,8 @@ iframe {
   justify-content: center;
   align-items: center;
   background-color: #888888;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 480px) {
@@ -363,6 +394,11 @@ iframe {
     max-height: 300px;
   }
 
+  .talles {
+    display: flex;
+    flex-direction: column;
+  }
+
   .lista-diferenciales {
     align-items: flex-start;
     margin: 0;
@@ -375,8 +411,8 @@ iframe {
 
   .video-responsive {
     position: relative;
-    padding-bottom: 70.25%;
-    padding-top: 50px;
+    padding-bottom: 65%;
+    padding-top: 25px;
     height: 0;
     overflow: hidden;
   }
