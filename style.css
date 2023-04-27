@@ -29,7 +29,7 @@ nav a {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 30px;
   text-decoration: none;
 }
 
@@ -97,6 +97,7 @@ nav a:hover {
 .productos {
   /* width: 940px; */
   margin: 0 auto;
+  background: linear-gradient(#fefefe, #888888);
   /* padding: 50px; */
 }
 
