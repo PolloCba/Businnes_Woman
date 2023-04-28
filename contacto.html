@@ -7,6 +7,12 @@
     <link rel="icon" type="image/png" href="./imagenes/Business_Woman.png" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('9cRm8D0lvw6OEhxui')
+</script>
   </head>
   <body>
     <header>
@@ -29,31 +35,33 @@
       </div>
     </header>
     <main>
-      <form class="form">
-        <label for="nombreapellido">Nombre y Apellido</label>
-        <input type="text" id="nombreapellido" class="input-padron" required />
+      <form  class="form" action="" method="POST" id="form">
+        <label for="from_name">Nombre y Apellido</label>
+        <input type="text" id="from_name" name="from_name" class="input-padron" required />
 
-        <label for="correoelectronico">Correo Electrónico</label>
+        <label for="email_id">Correo Electrónico</label>
         <input
           type="email"
-          id="correoelectronico"
+          id="email_id"
+          name="email_id"
           class="input-padron"
           required
           placeholder="email@dominio.com"
         />
 
-        <label for="telefono">Teléfono</label>
+        <label for="phone_id">Teléfono</label>
         <input
           type="tel"
-          id="telefono"
+          id="phone_id"
+          name="phone_id"
           class="input-padron"
           required
           placeholder="(XX) XXXX XXXX"
         />
 
-        <label for="mensaje">Mensaje</label>
-        <input type="text" id="mensaje" class="input-textarea" required></input>
-        <input type="submit" value="Enviar Formulario" class="enviar" />
+        <label for="message">Mensaje</label>
+        <input type="text" id="message" name="message" class="input-textarea" required></input>
+        <input type="submit" id="button" value="Enviar Formulario" class="enviar" />
         <div class="whatsapp">
           <img class="icono-whatsapp" width="150" height="150" src="./imagenes/Whatsapp.png" alt="Icono de whatsapp" />
           <p class="telefono-whatsapp">351 852-4287</p>
@@ -69,5 +77,6 @@
       />
       <p class="copyright">&copy Copyright Business Woman 2023</p>
     </footer>
+    <script src="envio_mail.js"></script>
   </body>
 </html>
