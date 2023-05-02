@@ -234,15 +234,27 @@ form legend {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.icono-whatsapp {
-  padding-top: 50px;
+  margin-top: 30px;
 }
 
 .telefono-whatsapp {
-  font-size: 40px;
-  padding-top: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.boton-whatsapp {
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.boton-whatsapp-index {
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 
 table {
