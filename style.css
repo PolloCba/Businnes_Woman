@@ -235,6 +235,7 @@ form legend {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  padding-bottom: 30px;
 }
 
 .telefono-whatsapp {
@@ -252,6 +253,7 @@ form legend {
   padding: 20px;
   border-radius: 10px;
   border: 2px solid black;
+  box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.8);
 }
 
 .boton-whatsapp-index {
